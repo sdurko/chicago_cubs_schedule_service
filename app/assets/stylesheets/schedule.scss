@@ -1,0 +1,27 @@
+// Place all the styles related to the schedule controller here.
+// They will automatically be included in application.css.
+// You can use Sass (SCSS) here: http://sass-lang.com/
+
+body #team-logo {
+  min-width: 40%;
+  width: 100%;
+  margin: none;
+  padding: none;
+}
+
+body table {
+  border: 1px solid blue;
+  min-width: 40%;
+  width: 100%;
+}
+
+table .schedule-row {
+  color: white;
+  margin: 10px 10px 10px 10px
+}
+table .schedule-header {
+  background-color: blue;
+}
+table .schedule-entry {
+  background: red;
+};

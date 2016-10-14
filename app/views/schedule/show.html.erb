@@ -1,0 +1,20 @@
+
+<img id='team-logo' src='http://chicago.cubs.mlb.com/documents/5/5/2/111260552/CHC_header_logo_nm97io3l.svg'>
+<table>
+
+  <tr class='schedule-row schedule-header'>
+    <th>GAME #</td>
+    <th>DATE</td>
+    <th>OPPONENT</td>
+    <th>RESULT</td>
+  </tr>
+
+  <% team_schedule.each do |game| %>
+    <tr class='schedule-row schedule-entry'>
+      <td><%= game.id %></td>
+      <td><%= game.date %></td>
+      <td><%= game.opponent %></td>
+      <td><%= format_result(game.result) %></td>
+    </tr>
+  <% end %>
+</table>
