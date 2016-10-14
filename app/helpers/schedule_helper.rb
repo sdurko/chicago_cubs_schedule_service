@@ -1,7 +1,7 @@
 module ScheduleHelper
 
   def team_schedule
-    Schedule.all
+    Schedule.all.to_a
   end
 
   def format_result(result)
